@@ -45,8 +45,9 @@ class Validator {
 
                     default:
                         // do nothing
-                        $errors[] = "No valid rule";
+                        $errors[] = "No value found";
                 }
+
             }
         }
         return $errors;
